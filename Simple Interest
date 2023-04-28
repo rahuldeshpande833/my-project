@@ -1,0 +1,13 @@
+#Write a program to calculate the simplest intrest
+#where , principle amount (P) = 15000
+# Rate of Intrest ( R )= 3%
+# And Time ( T ) = 3 Year
+# Formula = P * r * T / 100
+# Using Python 
+
+p = 15000 # Principle amount
+t = 3  # time as time ( tenure of 3 year)
+r = 3  # rate of intrest
+si= (p*r*t)/100      # SI consider as simple intrest (15000*3*3)/ 100 = value we got 1350
+print('Simple Intrest ',si)
+
